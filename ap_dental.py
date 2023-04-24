@@ -43,7 +43,7 @@ def view_data():
     try:
         cursor = conn.execute ("SELECT id,name, ndc,location,availability,arrivaldate, expirationdate,changemade FROM vaccines" )
         alldata = []
-        alldata.append(["Client |","Contact Info |","Appointment Date |","Time |","Artist |","Design/Location |"])
+        alldata.append(["Client |","Contact Info |","Appointment Date |","Time |","dentist |","type of appointment/Location |"])
         for row in cursor:
             thisrow=[]
             for x in range(8):
