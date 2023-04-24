@@ -68,7 +68,7 @@ def update_data():
         | 2 | Edit "Contact Information
         | 3 | Edit "Appointment Date MM/DD/YY"
         | 4 | Edit "Appointment Time"
-        | 5 | Edit "Designated Artist"
+        | 5 | Edit "Designated dentist"
         | 6 | Edit "Design/Location"''')
 
     feature = input("Enter the numerical value of the data you want to edit: ")
