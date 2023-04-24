@@ -25,7 +25,7 @@ def insert_data():
     location = input ("Enter appointment date MM/DD/YY: ")
     availability = input("Enter appointment time: ")
     arrivaldate = input("Enter specific dentist name: ")
-    expirationdate = input("Enter tattoo design and location: ")
+    expirationdate = input("Enter dental apppointment and location: ")
     changemade = str(now.year) +"/"+str(now.month) +"/"+str(now.day)
     try:      
         sqlresult = conn.execute("INSERT INTO vaccines (name,ndc,location,availability,arrivaldate,expirationdate,changemade)\
