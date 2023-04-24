@@ -24,7 +24,7 @@ def insert_data():
     ndc = input("Enter contact information: ")
     location = input ("Enter appointment date MM/DD/YY: ")
     availability = input("Enter appointment time: ")
-    arrivaldate = input("Enter designed tattoo artist: ")
+    arrivaldate = input("Enter specific dentist name: ")
     expirationdate = input("Enter tattoo design and location: ")
     changemade = str(now.year) +"/"+str(now.month) +"/"+str(now.day)
     try:      
