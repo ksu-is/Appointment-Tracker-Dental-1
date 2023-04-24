@@ -1,7 +1,7 @@
 # This is a simple Appointment Tracker system using SQLite.
 # This program allows the user to input client information regarding their appointment and can be edited for each user's preference.
 
-''' This Verison of the Appointment Tracker is meant to be used for a Cleaner dental solutions in Kennesaw who needs an easier way to track their information regarding clients'''
+''' This Verison of the Appointment Tracker is meant to be used for a Cleaner dental solutions who needs an easier way to track their information regarding clients'''
    
 # Importing all information required from SQLite.
 import sqlite3
