@@ -130,7 +130,7 @@ else:
     print("Error connecting to database.")
 
 while True:
-    print("Unique Ink Appointment Tracker")
+    print(" Dental Appointment Tracker")
     print("| 1 | Enter '1' for current appointments")
     print("| 2 | Enter '2' to create a client appointment")
     print("| 3 | Enter '3' to update an existing client appointment")
